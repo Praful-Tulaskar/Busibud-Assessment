@@ -1,0 +1,480 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+}
+
+.firstNavbar img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 33px;
+    width: 163px;
+    height: 47px;
+}
+
+.secondNavbar ul {
+    display: flex;
+    justify-content: center;
+}
+
+.secondNavbar ul li {
+    flex-direction: row;
+    list-style: none;
+    margin: 20px;
+    text-align: left;
+    font: normal normal 600 19px/26px Segoe UI;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+.secondNavbar ul li select {
+    border: none;
+    outline: none;
+    text-align: left;
+    font: normal normal 600 19px/26px Segoe UI;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+main {
+    display: flex;
+}
+
+main .section-1 {
+    margin-top: 100px;
+    margin-left: 121px;
+    margin-right: 65px;
+    max-width: 500px;
+}
+
+main .section-1 :nth-child(1) {
+    text-align: left;
+    font: normal normal 900 40px/54px Nunito Sans;
+    font-size: 2.5rem;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+main .section-1 p {
+    margin: 20px 0;
+    max-width: 520px;
+    text-align: left;
+    font: normal normal normal 18px/24px Nunito Sans;
+    font-size: 1.15rem;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+.btn {
+    width: 230px;
+    height: 60px;
+    margin: 50px 0;
+    font: normal normal 600 23px/31px Nunito Sans;
+    background: #1492E6 0% 0% no-repeat padding-box;
+    box-shadow: 0px 16px 48px #00000029;
+    border-radius: 33px;
+    opacity: 1;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    border: none;
+    outline: none;
+}
+
+main .section-2 {
+    margin: 35px 0;
+}
+
+main .section-2 img {
+    max-width: 409px;
+    max-height: 518px;
+}
+
+main .section-3 {
+    margin: 20px auto;
+}
+
+main .section-3 h1 {
+    margin: 50px auto;
+    text-align: center;
+    font: normal normal bold 35px/47px Nunito Sans;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+main .section-4 {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+}
+
+main .subsection-4 {
+    display: flex;
+    flex-direction: column;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 18px;
+    opacity: 1;
+    margin: 10px 0;
+    margin-left: 121px;
+    max-width: 308px;
+    width: 280px;
+    max-height: 320px;
+    height: 290px;
+}
+
+main .subsection-4 .subsection-4-heading {
+    margin: 15px auto;
+}
+
+main .subsection-4 .subsection-4-para {
+    width: 270px;
+    height: 192px;
+    margin: 5px auto;
+}
+
+main .section-5 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 80px;
+}
+
+main .subsection-5 {
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+main .subsection-5-first {
+    margin-left: 120px;
+}
+
+main .subsection-5-img img {
+    max-width: 241px;
+    max-height: 156px;
+}
+
+main .subsection-5-heading {
+    margin: 20px 0;
+    text-align: left;
+    font: normal normal bold 18px/24px Nunito Sans;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+main .subsection-5-para {
+    max-width: 330px;
+    max-height: 170px;
+    text-align: left;
+    font: normal normal normal 18px/24px Nunito Sans;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+main .section-6-left {
+    margin-left: 115px;
+    align-self: flex-start;
+}
+
+main .section-6-left-head {
+    display: flex;
+    align-items: center;
+}
+
+main .section-6-left-head-heading {
+    margin: 0 25px;
+}
+
+main .section-6-left-para p {
+    text-align: left;
+    font: normal normal normal 21px/28px Nunito Sans;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    max-width: 600px;
+    margin: 5px;
+}
+
+.btn-6 {
+    margin: 15px 0;
+}
+
+.section-6 {
+    flex-direction: column;
+}
+
+main .section-6-right {
+    align-self: flex-end;
+    margin-bottom: 30px;
+}
+
+main .section-6-right-head {
+    display: flex;
+    align-items: center;
+}
+
+main .section-6-right-head-heading {
+    margin: 0 25px;
+}
+
+main .section-6-right-para p {
+    text-align: left;
+    font: normal normal normal 21px/28px Nunito Sans;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    max-width: 450px;
+    margin-right: 150px;
+}
+
+main .section-7 {
+    max-width: 1100px;
+    max-height: 360px;
+    margin-left: 100px;
+    background: #F8FAFC 0% 0% no-repeat padding-box;
+    box-shadow: 0px 16px 48px #00000029;
+    border-radius: 42px;
+    opacity: 1;
+    margin-bottom: 250px;
+}
+
+main .subsection-7 {
+    display: flex;
+    align-items: center;
+    margin: 40px;
+    flex-wrap: wrap;
+}
+
+main .card {
+    justify-content: space-around;
+}
+
+main .section-7-head-img img {
+    max-width: 64px;
+}
+
+main .section-7-head-heading {
+    text-align: left;
+    font: normal normal 900 25px/34px Nunito Sans;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    margin: 0 20px;
+}
+
+main .subsection-7-card {
+    max-width: 285px;
+    max-height: 260px;
+    margin: 20px 10px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 16px 48px #00000029;
+    border-radius: 30px;
+    opacity: 1;
+}
+
+main .card-1 {
+    margin-left: 80px;
+}
+
+main .subsection-7-card-head {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+main .subsection-7-card-head-firstrow {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+main .subsection-7-card-star img {
+    max-width: 14px;
+    max-height: 14px;
+}
+
+.name {
+    text-align: left;
+    font: normal normal 600 13px/18px Nunito Sans;
+    letter-spacing: 0px;
+    font-size: 0.8rem;
+    color: #000000;
+    opacity: 1;
+}
+
+.designation {
+    text-align: left;
+    font: normal normal 600 13px/18px Nunito Sans;
+    font-size: 0.7rem;
+    letter-spacing: 0px;
+    color: #615C5C;
+    opacity: 1;
+}
+
+.subsection-7-card-para {
+    text-align: left;
+    font: normal normal normal 13px/18px Nunito Sans;
+    font-size: 0.8rem;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    margin: 0 25px;
+    margin-bottom: 20px;
+}
+
+main .section-8 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 80px;
+    width: 100vw;
+}
+
+main .section-8-img-1 img {
+    width: 185px;
+    height: 60px;
+    margin: 20px 0;
+}
+
+main .section-8-img-2 img {
+    width: 175px;
+    height: 100px;
+}
+
+main .section-8-img-3 img {
+    width: 90px;
+    height: 90px;
+    margin: 5px 0;
+}
+
+main .section-8-imgName {
+    text-align: center;
+    font: normal normal bold 18px/24px Nunito Sans;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+footer {
+    height: 360px;
+    margin-top: 80px;
+    background: #000000 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 1;
+}
+
+footer div {
+    text-align: center;
+    font: normal normal bold 18px/24px Nunito Sans;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    font-size: 22px;
+    margin-top: 250px;
+}
+
+footer div span {
+    font-size: 30px;
+    text-align: center;
+}
+
+
+
+
+/*-------------------- Tablet View --------------------*/
+
+@media only screen and (max-width: 820px) {
+
+    main .subsection-4 {
+        margin-left: 0;
+    }
+
+    main .subsection-5 {
+        margin: 0 30px;
+    }
+
+    main .section-6-left {
+        margin-left: 50px;
+    }
+
+    main .section-6-right-para p {
+        margin-right: 50px;
+    }
+
+    main .section-7 {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+}
+
+
+/* ----------- MOBILE VIEW ------------ */
+
+@media only screen and (max-width: 415px) {
+
+    .secondNavbar{
+        overflow: scroll;
+    }
+
+    main {
+        flex-wrap: wrap;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    main .section-1 {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    main .section-2 img {
+        max-width: 350px;
+        max-height: 518px;
+    }
+
+    main .subsection-5 {
+        margin-bottom: 30px;
+    }
+
+    main .section-6-left {
+        align-self: auto;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    main .section-6-right {
+        align-self: auto;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    main .section-7 {
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-bottom: 550px;
+    }
+
+    main .subsection-7 {
+        margin: 30px 20px;
+    }
+
+    main .card-1 {
+        margin-left: 0px;
+    }
+
+    main .section-8>div {
+        margin: 30px 0;
+    }
+}
